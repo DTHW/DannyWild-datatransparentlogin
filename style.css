@@ -1,0 +1,67 @@
+/** Apply DRY conditions **/
+form, input, input::placeholder, button
+{
+    color: white;
+}
+
+label, input, button
+{
+    font-size: 2rem;
+}
+
+h1, div
+{
+    border-bottom: 5px solid rgb(4, 237, 35);
+}
+
+input, button
+{
+    background-color: transparent;
+}
+/**************************/
+
+body
+{
+    background: linear-gradient(90deg, rgba(0,0,0,0.6) 0%, rgba(0,0,0,0.6) 35%, rgba(0,0,0,0.6) 100%), url(/BG.avif);
+    background-repeat: no-repeat, center;
+    background-size: cover;
+}
+
+form
+{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); 
+    font-size: 3rem;
+    text-align: center;
+}
+
+h1
+{
+    padding: 1rem;
+}
+
+div
+{
+    margin-bottom: 2rem;
+}
+
+label
+{
+    font-family: FontAwesome, "Open Sans", Verdana, sans-serif;
+}
+
+input
+{
+    border: none;
+    width: 89%;
+}
+
+button
+{
+    border: 5px solid rgb(4, 237, 35);
+    border-radius: 5%;        
+    width: 100%;
+    margin-top: 2rem;
+}
